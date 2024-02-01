@@ -1,8 +1,54 @@
 body {
-    background-color: lightblue;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
+
+#content {
+     max-width: 1000px;
+     margin: 0 auto;
+}
+
 .nav_link {
-    padding: 10px;
+    padding: 40px;
     color: black;
     font-size: 1.3em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+header {
+    background-color:lightblue;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p{
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
 }
