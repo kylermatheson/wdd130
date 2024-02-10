@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 body {
     background-color: white;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 #content {
@@ -22,6 +25,8 @@ nav {
 
 nav a {
     text-align: center;
+    font-family: 'Bebas Neue';
+    text-decoration-line: none;
 }
 
 nav a:hover {
@@ -36,6 +41,7 @@ header {
 
 h1 {
     text-align: center;
+    font-family: 'Bebas Neue';
 }
 
 img {
@@ -44,11 +50,22 @@ img {
     margin: 0 auto;
 }
 
-main p{
+main p {
+    width: 60;
+    margin: 50px auto;
+    padding: 55px;
+    background-color: lightblue;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border: 10px solid lightblue;
     text-align: center;
+    font-family: Roboto;
+    box-sizing: border-box;
+    border-radius: 10 px;
 }
-
 footer{
     padding: 20px;
     text-align: center;
+    font-family: Roboto;
 }
