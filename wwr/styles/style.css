@@ -332,3 +332,56 @@ footer .social img {
     --secondary-color: #144466 ;
     --accent1-color: #f5de73 ;
     --accent2-color: white; */
+
+
+/* FAQ Page */
+
+
+
+
+
+.title h4 {
+    font-family: Roboto;
+    text-align: left; 
+    font-size: 32pt;
+    margin-top: 0px;
+    color: #f5de73;
+    
+}
+
+.title h1 {
+    font-family: "Protest Riot";
+    font-size: 75pt;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #144466;
+}
+
+.title {
+    margin-left: 150px;
+    
+}
+.faq-grid p {
+    font-family: Roboto;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+}
+
+.faq-grid h2 {
+    margin-bottom: 33px;
+    font-family: Roboto;
+    background-color: white;
+    padding: 10px;
+    color: #144466;
+}
+
+.kids, .safe, .included, .need, .great, .advance {
+margin: 50px;
+padding: 56px;
+background-color: #144466;
+color: white;
+}
