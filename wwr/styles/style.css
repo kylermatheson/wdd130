@@ -336,9 +336,30 @@ footer .social img {
 
 /* FAQ Page */
 
+.top {
+    margin-bottom: 100px;
+}
 
+.image-back {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    opacity: .4;
+    
+}
 
-
+.image-back img {
+    width: 100%;
+    height: auto;
+    
+}
 
 .title h4 {
     font-family: Roboto;
@@ -369,6 +390,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 100px;
+    margin-top: 200px;
 }
 
 .faq-grid h2 {
