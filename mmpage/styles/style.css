@@ -101,9 +101,9 @@ nav a:hover {
 .mission {
     background-color: #EAEAEA;
     padding: 50px 200px 50px;
-    margin-top: -200px;
-    position: absolute;
-    z-index: 1;
+    /* margin-top: -200px; */
+    /* position: absolute;
+    z-index: 1; */
 }
 
 .mission h2 {
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 .home_grid {
-    margin-top: 220px;
+    /* margin-top: 220px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
