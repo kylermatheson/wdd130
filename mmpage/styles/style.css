@@ -145,9 +145,10 @@ nav a:hover {
 .analytics-img,
 .support-img,
 .purpose-img  {
-    padding: 150px 200px 150px;
+    padding: 10% 20% 10%;
     text-align: left;
 }
+
 
 .tracking-card,
 .tracking-img,
@@ -177,8 +178,7 @@ nav a:hover {
 }
 
 .card-img {
-    width: 100%;
-    object-fit: contain; 
+    max-width: 100%;
 }
 
 footer {
