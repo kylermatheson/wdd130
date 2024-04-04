@@ -262,7 +262,7 @@ footer p a:hover {
 
 .plan,
 .plan_premium {
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #EAEAEA;
     max-width: 300px;
     width: 50%;
@@ -294,4 +294,96 @@ footer p a:hover {
     border-width: 1px;
     border-color: black;
     padding: 20px;
+}
+
+/* testimonial page below */
+
+.sub-title {
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 48px;
+    color: #F29202;
+}
+
+#testimonials {
+    margin-top: 124px;
+    margin-bottom: 124px;
+    margin-left: 118px;
+    width: 50%;
+}
+
+
+#testimonials h1 {
+    font-family: "Work Sans";
+    font-size: 72px;
+    color: #F29202;
+    text-align: left; 
+}
+
+#testimonials p {
+    font-family:"Roboto Serif";
+    font-size: 20px;
+}
+
+
+.test_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2% 10% 5% 10%;
+}
+
+.test_grid section{
+    margin: 10%;
+    padding: 10%;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.test_grid section p{
+    font-family:"Roboto Serif";
+    font-size: 20px;
+}
+
+.quote_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2% 10% 5% 10%;
+}
+
+.quote_grid section p{
+    font-family:"Roboto Serif";
+    font-size: 20px;
+}
+
+
+.quote_grid section{
+    margin: 10%;
+    padding: 10%;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.fact_grid section p{
+    font-family:"Roboto Serif";
+    font-size: 20px;
+}
+
+
+.fact_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2% 10% 5% 10%;
+}
+
+
+.fact_grid section{
+    margin: 10%;
+    padding: 10%;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.fact_grid section p{
+    font-family:"Roboto Serif";
+    font-size: 20px;
 }
