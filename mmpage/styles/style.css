@@ -217,11 +217,13 @@ footer p a:hover {
 .face {
     max-width: 50px;
     height: 100%;
+    border-radius: 100px;
 }
 
 .insta {
     max-width: 50px;
     height: 100%;
+    border-radius: 100px;
 }
 
 /* pricing page below */
@@ -296,7 +298,28 @@ footer p a:hover {
     padding: 20px;
 }
 
+.access {
+    font-size: 30px;
+    text-align: center;
+    place-self: center;
+}
+
 /* testimonial page below */
+
+.title-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.chat-img {
+    place-self: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 200px;
+    width: 70%;
+}
 
 .sub-title {
     text-align: center;
@@ -306,11 +329,13 @@ footer p a:hover {
 }
 
 #testimonials {
-    margin-top: 124px;
-    margin-bottom: 124px;
-    margin-left: 118px;
-    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
+
+
 
 
 #testimonials h1 {
